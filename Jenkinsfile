@@ -14,11 +14,11 @@ pipeline {
     stages {
 
         stage('Checkout') {
-            steps {
-                git branch: 'master',
-                url: 'https://github.com/ShruthiBGowda/MavenAnsibleWebApp1-CICD.git'
-            }
-        }
+    steps {
+        git branch: 'main',
+        url: 'https://github.com/rishikeshx2005/MavenAnsibleWebApp1.git'
+    }
+ }
 
         stage('Build') {
             steps {
